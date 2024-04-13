@@ -10,3 +10,16 @@
     }
   };
 
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMjdmZmQxMWZhNTE5NDY2NDBhYjQ5NzMwMjcyYzVmZiIsInN1YiI6IjY2MThiZTAxNjZlNDY5MDE2NWJjMmIyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0VHruJjRwABY4zjZqNlzo5mu5CZqB050fSCX6-3NYNk'
+    }
+  };
+
+  // fetch('https://api.themoviedb.org/3/movie/693134/videos?language=en-US', options)
+  // .then(response => response.json())
+  // .then(response => console.log(response))
+  // .catch(err => console.error(err));
+
