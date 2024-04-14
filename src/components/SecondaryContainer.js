@@ -6,6 +6,8 @@ const SecondaryContainer = () => {
   const movies = useSelector(state => state.movies)
     if(movies.nowPlayingMovies===null) return;
     if(movies.topRatedMovies=== null) return;
+    if(movies.upcomingMovies === null) return;
+    if(movies.popularMovies === null) return;
   // console.log(movies.nowPlayingMovies);
   return (<div className='bg-black'>
   <div className='-mt-52 pl-12 relative z-20 '>
