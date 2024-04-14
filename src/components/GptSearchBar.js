@@ -11,6 +11,8 @@ const GptSearchBar = () => {
   const searchText = useRef();
   const handleGptSearchClick = async () => {
     console.log(searchText.current.value);
+
+    
     const gptQuery = "Act as a Movie Recommendation system and suggest some movies for the query :" +searchText.current.value+". only give me name of 5 movies,comma seperated like the example result given ahead. Example koi mil gya,don,singham,gadar,dabang"  
 
     const getResults = await openai.chat.completions.create({ 
