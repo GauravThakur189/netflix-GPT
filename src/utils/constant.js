@@ -15,8 +15,7 @@
 
   export const POSTER_PATH_URL = "https://image.tmdb.org/t/p/w500"
 
-  // fetch('https://api.themoviedb.org/3/movie/693134/videos?language=en-US', options)
-  // .then(response => response.json())
-  // .then(response => console.log(response))
-  // .catch(err => console.error(err));
+  export const SUPPORT_LANGUAGE = [{identifier:"en",name:"english"},
+{identifier:"spanish" ,name:"spanish"},
+{identifier:"hindi",name: "Hindi"}];
 
