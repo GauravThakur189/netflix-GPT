@@ -20,5 +20,5 @@
 {identifier:"hindi",name: "Hindi"}];
 
 
-export const  OPENAI_KEY = "sk-proj-cwFG77vE2pjyozvMY5gtT3BlbkFJlllxCH4aNclUEqmhpOLM";
+export const  OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
 
