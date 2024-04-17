@@ -44,6 +44,7 @@ const GptSearchBar = () => {
   return (
     <div className="pt-[10%] flex justify-center ">
       <form className=" w-1/2 " onSubmit={(e) => e.preventDefault()}>
+
         <input
           ref={searchText}
           className="p-2 m-2 w-3/5"
@@ -62,3 +63,7 @@ const GptSearchBar = () => {
 };
 
 export default GptSearchBar;
+
+
+
+

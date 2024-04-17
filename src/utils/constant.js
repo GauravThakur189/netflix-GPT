@@ -9,7 +9,7 @@
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer' + process.env.REACT_APP_TMDB_TOKEN
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMjdmZmQxMWZhNTE5NDY2NDBhYjQ5NzMwMjcyYzVmZiIsInN1YiI6IjY2MThiZTAxNjZlNDY5MDE2NWJjMmIyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0VHruJjRwABY4zjZqNlzo5mu5CZqB050fSCX6-3NYNk'
     }
   };
 
@@ -20,5 +20,5 @@
 {identifier:"hindi",name: "Hindi"}];
 
 
-export const  OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const  OPENAI_KEY = "sk-proj-cwFG77vE2pjyozvMY5gtT3BlbkFJlllxCH4aNclUEqmhpOLM";
 

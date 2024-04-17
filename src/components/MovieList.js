@@ -3,6 +3,7 @@ import MovieCart from './MovieCart'
 
 const MovieList = ({title, movies}) => {
   // if(movies.length===null) return;
+   console.log("check movies"+movies)
   return (
     <div className='px-6'>
     <h1 className='text-2xl p-4 text-white'>{title} </h1>
